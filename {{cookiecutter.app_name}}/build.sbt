@@ -8,7 +8,7 @@ homepage := Some(url("{{cookiecutter.org_site}}"))
 
 description := "{{cookiecutter.project_short_description}}"
 
-scalaVersion := "2.10.4"
+scalaVersion := "{{cookiecutter.scala_version}}" 
 
 libraryDependencies ++= Seq(
     "com.twitter" %% "finagle-http" % "6.22.0",
